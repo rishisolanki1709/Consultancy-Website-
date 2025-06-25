@@ -1,0 +1,200 @@
+#nav-bar{
+    display: flex;
+}
+.nav-button{
+border: none;
+margin: 5px;
+margin-top: 30px;
+}
+.contact{
+    background-color: orange;
+    height: 35px;
+    align-items: center;
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 20px;
+}
+#nav-bar-buttons{
+    /* background-color: brown; */
+    margin-left: 700px;
+}
+#image-registration-box {
+  position: relative;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: auto;
+}
+
+#couple-image {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+#registration-box {
+
+    color: white;
+  position: absolute;
+  top: 50%;
+  left: 70%; /* push it a bit from the left edge */
+  transform: translateY(-50%);
+  background-color: rgba(21, 47, 61, 0.95);
+  padding: 20px;
+  width: 400px;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); */
+}
+
+#registration-box h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#registration-box input,
+#registration-box button {
+    
+    background-color: rgba(21, 47, 61, 0.95);
+    color: white;
+    border: none;
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#registration-box button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#registration-box #back-btn {
+  background-color: #6c757d;
+  margin-top: 10px;
+  width: 200px;
+}
+
+#point-one-heading,
+.point-two-heading{
+    color: #007bff;
+    font-size: x-large;
+    text-align: center;
+}
+.two-sub-heading{
+    color: #007bff;
+    font-size: larger;
+}
+
+#point-one{
+    width: 400px;
+    margin: 200px;
+    /* background-color: #c39393; */
+}
+
+#point-one-images{
+    height: 550px;
+    width: 50%;
+    padding-left: 300px;
+
+    /* background-color: #c74e4e; */
+}
+
+#portion-one{
+    display: flex;
+}
+#img-one{
+    height: 250px;
+    margin-top: 100px;
+}
+#img-two{
+    height: 200px;
+    margin-left: 10px;
+}
+#img-three{
+    height: 170px;
+    margin-left: 150px;
+}
+#choose-opiniuns{
+    display: flex;
+    margin: 10px;
+    /* border: 5px solid black; */
+}
+.options{
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    /* background-color: #e1dfdf; */
+    border-radius: 20px;
+    /* border: 1px solid black; */
+}
+.img-choose{
+    display: flex;
+    justify-content: center;
+}
+#line-one{
+    height: 8px;
+}
+#portion-three{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    /* padding: 20px; */
+    /* background-color: rebeccapurple; */
+}
+#three-img-one{
+    height: 200px;
+    margin-top: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#three-img-two{
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#three-img-three{
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-top: 300px;
+}
+.about-us{
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+#portion-five{
+    background-color: #d6edfb;
+    padding-top: 100px;
+}
+.features{
+    /* margin: 5px; */
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+
+    /* background-color: red; */
+}
+.five-imgs{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+#Subcription-email-box{
+    align-content: center;
+}
